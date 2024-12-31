@@ -1,35 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes - Sheet Pan Black Pepper Tofu and Broccoli</title>
+    <link rel="icon" type="image/svg" href="../Images/Logo-svg.svg">
+    <link rel="stylesheet" href="../style.css">
 </head>
+
 <body>
     <header>
         <nav>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="lasagna.html">Lasagna Recepie</a></li>
-            <li><a href="CocktailMeatballs.html">Cocktail Meatballs</a></li>
-            <li><a href="TofuAndBroccoli.html">Sheet Pan Black Pepper Tofu and Broccoli</a></li>
+            <a href="../index.html"><img src="../Images/Logo-png.png" alt="Site Logo" class="logo"></a>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <div class="dropdown">
+                    <li><a href="" class="active">Recipes</a></li>
+                    <div class="dropdown-content">
+                        <a href="/recipes/lasagna.html" class="recepie-item">Lasagna</a>
+                        <a href="/recipes/CocktailMeatballs.html" class="recepie-item">Meatballs</a>
+                        <a href="/recipes/TofuAndBroccoli.html" class="recepie-item active">Sheet Pan</a>
+                    </div>
+                </div>
+                <li><a href="../contact.html">Contact</a></li>
+            </ul>
         </nav>
-        <hr />
     </header>
     <main>
-        <h1>Sheet Pan Black Pepper Tofu and Broccoli</h1>
-        <h2>Preparation:</h2>
-        <div>
-            <h3>Prep Time:</h3>
-            <p>10 min</p>
-            <h3>Cook Time:</h3>
-            <p>30 min</p>
-            <h3>Total Time:</h3>
-            <p>1 hours</p>
-            <h3>Servings:</h3>
-            <p>4</p>
+        <h1 class="title">Sheet Pan Black Pepper Tofu and Broccoli</h1>
+        <div class="img-container">
+            <img src="../Images/Tofu.webp" alt="" class="page-image">
         </div>
-        <h2>Ingredients</h2>
-        <ol>
+        <h2 class="subtitle">Preparation:</h2>
+        <div class="prep">
+            <div class="prep-item">
+                <h3>Prep Time:</h3>
+                <p>10 min</p>
+            </div>
+            <div class="prep-item">
+                <h3>Cook Time:</h3>
+                <p>30 min</p>
+            </div>
+            <div class="prep-item">
+                <h3>Total Time:</h3>
+                <p>1 hours</p>
+            </div>
+            <div class="prep-item">
+                <h3>Servings:</h3>
+                <p>4</p>
+            </div>
+        </div>
+
+        <h2 class="subtitle">Ingredients:</h2>
+        <ol class="li-items">
             <li>1 (16 ounce) package extra-firm tofu</li>
             <li>1 head broccoli, separated into florets</li>
             <li>3 tablespoons sesame oil</li>
@@ -39,36 +63,43 @@
             <li>1 teaspoon ground ginger</li>
             <li>1 1/2 tablespoons freshly groud black pepper</li>
         </ol>
-        
-        <h2>Directions</h2>
-        <div>
-            <div>
+
+        <h2 class="subtitle">Directions:</h2>
+        <div class="prep">
+            <div class="prep-item">
                 <h3>Step 1</h3>
-                <p>Slice tofu into thirds lengthwise so you have 3 even slabs. Stack the slabs on top of each other and slice through them lengthwise to make 3 even columns, then slice across to make 5 even rows.</p>
+                <p>Slice tofu into thirds lengthwise so you have 3 even slabs. Stack the slabs on top of each other and
+                    slice through them lengthwise to make 3 even columns, then slice across to make 5 even rows.</p>
             </div>
-            <div>
+            <div class="prep-item">
                 <h3>Step 2</h3>
-                <p>Lay tofu evenly on a plate lined with a couple layers of paper towels. Layer more paper towels on top of the tofu and place another plate on top of the stack. Press out as much water as possible and let sit for at least 30 minutes.</p>
+                <p>Lay tofu evenly on a plate lined with a couple layers of paper towels. Layer more paper towels on top
+                    of the tofu and place another plate on top of the stack. Press out as much water as possible and let
+                    sit for at least 30 minutes.</p>
             </div>
-            <div>
+            <div class="prep-item">
                 <h3>Step 3</h3>
                 <p>Preheat the oven to 400 degrees F (200 degrees C). Line a baking sheet with parchment paper.</p>
             </div>
-            <div>
+            <div class="prep-item">
                 <h3>Step 4</h3>
-                <p>Transfer pressed tofu and broccoli into a mixing bowl. Drizzle with sesame oil and soy sauce; toss lightly to combine. Mix cornstarch, garlic powder, ground ginger, and black pepper together in a small bowl; sprinkle over tofu and broccoli. Toss until evenly coated, and arrange in one layer on the prepared baking sheet.</p>
+                <p>Transfer pressed tofu and broccoli into a mixing bowl. Drizzle with sesame oil and soy sauce; toss
+                    lightly to combine. Mix cornstarch, garlic powder, ground ginger, and black pepper together in a
+                    small bowl; sprinkle over tofu and broccoli. Toss until evenly coated, and arrange in one layer on
+                    the prepared baking sheet.</p>
             </div>
-            <div>
+            <div class="prep-item">
                 <h3>Step 5</h3>
-                <p>Bake in the preheated oven for 10 minutes. Flip and continue baking until crispy, about 10 minutes more. Serve warm.</p>
-                <img src="../Images/Tofu.webp" alt="" width="500">
+                <p>Bake in the preheated oven for 10 minutes. Flip and continue baking until crispy, about 10 minutes
+                    more. Serve warm.</p>
             </div>
         </div>
     </main>
     <footer>
         <hr />
-        <h2>Logo</h2>
+        <a href="index.html"><img src="../Images/Logo-png.png" alt="Site Logo" class="logo"></a>
         <hr />
     </footer>
 </body>
+
 </html>
